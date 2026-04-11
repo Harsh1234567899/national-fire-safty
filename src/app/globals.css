@@ -1,36 +1,54 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* 60-30-10 Color Tokens - Finalized Light Theme */
+  --background: #F8FAFC;      /* Dominant (60%) - Off-White */
+  --secondary-bg: #F1F5F9;    /* Secondary (30%) - Light Slate */
+  --hero-bg: #0F172A;        /* Hero Section Dark Navy */
+  --footer-bg: #0F172A;      /* Footer Section Dark Navy */
+  
+  --foreground: #0F172A;      /* Primary Heading - Slate-900 */
+  --foreground-muted: #64748B; /* Body Text - Slate-500 */
+  
+  --primary: #1E40AF;         /* Primary Action Blue */
+  --primary-dark: #1E3A8A;
+  --secondary: #D97706;       /* Secondary / Brand highlight */
+  --accent: #D97706;          /* Accent Gold */
+  
+  --border: rgba(15, 23, 42, 0.08); /* Subtle dark border on light bg */
+  --card: #FFFFFF;             /* Pure white cards on off-white bg */
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-secondary-bg: var(--secondary-bg);
+  --color-hero-bg: var(--hero-bg);
+  --color-footer-bg: var(--footer-bg);
   --color-foreground: var(--foreground);
+  --color-foreground-muted: var(--foreground-muted);
+  --color-primary: var(--primary);
+  --color-primary-dark: var(--primary-dark);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-border-custom: var(--border);
+  --color-card-custom: var(--card);
+
   --font-sans: var(--font-inter);
   --font-bebas: var(--font-bebas-neue);
-
-  --color-primary: #DC2626;
-  --color-primary-dark: #991B1B;
-  --color-primary-light: #EF4444;
-  --color-secondary: #F97316;
-  --color-secondary-dark: #C2410C;
-  --color-secondary-light: #FB923C;
-  --color-accent: #FCD34D;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 @layer utilities {
   .animate-marquee {
     animation: marquee 30s linear infinite;
   }
+
   .animate-marquee2 {
     animation: marquee2 30s linear infinite;
   }
@@ -44,10 +62,4 @@
 @keyframes marquee2 {
   0% { transform: translateX(100%); }
   100% { transform: translateX(0%); }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-inter), Arial, Helvetica, sans-serif;
 }
