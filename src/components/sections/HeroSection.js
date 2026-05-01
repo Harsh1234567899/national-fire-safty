@@ -21,7 +21,7 @@ const HeroSection = () => {
   return (
     <section
       id="home"
-      className="relative min-h-[85vh] flex items-center justify-center overflow-hidden bg-hero-bg pt-20 md:pt-24 pb-12"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-hero-bg pt-20 md:pt-24 pb-12"
     >
       {/* Background with parallax effect */}
       <div
@@ -74,12 +74,13 @@ const HeroSection = () => {
           >
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/30 bg-primary/10 text-accent text-[10px] md:text-xs font-bold tracking-[0.2em] uppercase mb-6 backdrop-blur-md">
               <ShieldCheck size={14} className="text-secondary" />
-              TRUSTED SINCE 15+ YEARS
+              TRUSTED AND QUALITY SINCE 38+ YEARS
             </div>
-            <h1 className="font-bebas text-5xl md:text-7xl lg:text-8xl text-white tracking-wider leading-[0.85] mb-5">
+            {/* i dont want this below code dont add back  */}
+            {/* <h1 className="font-bebas text-5xl md:text-7xl lg:text-8xl text-white tracking-wider leading-[0.85] mb-5">
               <span className="text-accent italic">NATIONAL</span> <br />
               <span className="text-white">FIRE SAFETY</span>
-            </h1>
+            </h1> */} 
             <p className="text-white/70 text-sm md:text-base max-w-xl mb-8 leading-relaxed font-inter mx-auto lg:mx-0">
               {siteData.tagline} We deliver high-end industrial fire protection and safety solutions across Gujarat with certified expertise.
             </p>

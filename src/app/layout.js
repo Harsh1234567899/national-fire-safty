@@ -1,5 +1,6 @@
 import { Inter, Bebas_Neue } from "next/font/google";
 import "./globals.css";
+import WhatsAppButton from "@/components/ui/WhatsAppButton";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -13,8 +14,35 @@ const bebasNeue = Bebas_Neue({
 });
 
 export const metadata = {
-  title: "National Fire Safety | Fire Safety Solutions in Rajkot",
-  description: "Premier fire safety service provider in Rajkot, Gujarat. Specializing in NOC, AMC, fire equipment, and safety audits.",
+  metadataBase: new URL('https://nationalfiresafety.com'),
+  title: "National Fire Safety | Best Fire Safety Solutions in Rajkot",
+  description: "Premier fire safety service provider in Rajkot, Gujarat. Specializing in Fire NOC, Industrial AMC, fire extinguishers, and safety audits.",
+  keywords: ["fire safety rajkot", "fire NOC rajkot", "fire extinguisher gujarat", "industrial safety equipment", "AMC services fire", "fire hydrant system"],
+  authors: [{ name: "National Fire Safety" }],
+  creator: "National Fire Safety",
+  publisher: "National Fire Safety",
+  formatDetection: {
+    email: false,
+    address: true,
+    telephone: true,
+  },
+  openGraph: {
+    title: "National Fire Safety | Fire Safety Solutions in Rajkot",
+    description: "Premier fire safety service provider in Rajkot, Gujarat. Specializing in Fire NOC, AMC, and safety hardware.",
+    url: 'https://nationalfiresafety.com',
+    siteName: 'National Fire Safety',
+    locale: 'en_IN',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "National Fire Safety | Fire Safety Solutions in Rajkot",
+    description: "Premier fire safety service provider in Rajkot, Gujarat.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -24,6 +52,7 @@ export default function RootLayout({ children }) {
         className={`${inter.variable} ${bebasNeue.variable} antialiased bg-background text-foreground font-sans`}
       >
         {children}
+        <WhatsAppButton />
       </body>
     </html>
   );

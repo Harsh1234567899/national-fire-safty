@@ -1,8 +1,7 @@
-"use client";
 import React from "react";
-import { motion } from "framer-motion";
 import { siteData } from "@/data/siteData";
 import { MapPin, ArrowRight } from "lucide-react";
+import ProjectCardAnimated from "./ProjectCardAnimated";
 
 const ProjectsSection = () => {
   return (
@@ -24,14 +23,7 @@ const ProjectsSection = () => {
 
         <div className="grid md:grid-cols-3 gap-6">
           {siteData.projects.map((project, i) => (
-            <motion.div
-              key={project.id}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: i * 0.2 }}
-              viewport={{ once: true }}
-              className="group relative h-[460px] rounded-3xl overflow-hidden cursor-pointer shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-1"
-            >
+            <ProjectCardAnimated key={project.id} delay={i * 0.2}>
               <img
                 src={project.image}
                 alt={project.title}
@@ -52,7 +44,7 @@ const ProjectsSection = () => {
                   <ArrowRight size={18} />
                 </div>
               </div>
-            </motion.div>
+            </ProjectCardAnimated>
           ))}
         </div>
       </div>

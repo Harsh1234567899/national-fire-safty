@@ -50,12 +50,18 @@ const Navbar = () => {
       </button>
 
       <div className="flex flex-col items-center justify-center gap-10 p-8">
-        <div className="bg-white p-2 rounded-xl mb-4 shadow-2xl">
-          <img
-            src="/images/logo.jpg"
-            alt="National Fire Safety Logo"
-            className="h-16 w-auto object-contain"
-          />
+        <div className="flex items-center gap-4 mb-4">
+          <div className="bg-white p-2 rounded-xl shadow-2xl">
+            <img
+              src="/images/logo.jpg"
+              alt="National Fire Safety Logo"
+              className="h-16 w-auto object-contain"
+            />
+          </div>
+          <div className="flex flex-col font-bebas tracking-wider leading-[1.1] text-left">
+            <span className="text-2xl md:text-3xl font-bold italic text-accent">NATIONAL</span>
+            <span className="text-xl md:text-2xl font-bold text-white">FIRE SAFETY</span>
+          </div>
         </div>
         {siteData.navLinks.map((link) => (
           <a
@@ -91,13 +97,17 @@ const Navbar = () => {
         <div className="container mx-auto px-4 md:px-8">
           <div className="flex justify-between items-center">
             {/* Logo - Always in white container for visibility */}
-            <a href="#home" className="flex items-center group relative">
+            <a href="#home" className="flex items-center gap-3 group relative">
               <div className="bg-white p-1.5 rounded-lg shadow-sm group-hover:shadow-md transition-all transform group-hover:scale-105 duration-300">
                 <img
                   src="/images/logo.jpg"
                   alt="National Fire Safety Logo"
                   className="h-10 md:h-12 w-auto object-contain"
                 />
+              </div>
+              <div className="flex flex-col font-bebas tracking-wider leading-[1.1]">
+                <span className={`text-xl md:text-2xl font-bold italic text-accent`}>NATIONAL</span>
+                <span className={`text-base md:text-lg font-bold ${scrolled ? "text-foreground" : "text-white"}`}>FIRE SAFETY</span>
               </div>
             </a>
 

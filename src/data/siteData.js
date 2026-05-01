@@ -162,8 +162,8 @@ export const siteData = {
   ],
   footer: {
     address: "607 The Imperia, Limda Chowk, Subhash Road, Near Federal Bank, Rajkot, Gujarat 360001",
-    phone: "08048953967",
-    email: "info@nationalfiresafety.com",
+    phone: "+91 75738 02153",
+    email: "blazafes@gmail.com",
     copyright: `© ${new Date().getFullYear()} NATIONAL FIRE SAFTY. All rights reserved.`,
   },
 };

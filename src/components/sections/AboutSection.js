@@ -1,21 +1,14 @@
-"use client";
 import React from "react";
-import { motion } from "framer-motion";
 import { siteData } from "@/data/siteData";
 import { CheckCircle } from "lucide-react";
+import { AboutLeft, AboutRight } from "./AboutAnimations";
 
 const AboutSection = () => {
   return (
     <section id="about" className="py-24 bg-background border-y border-black/5">
       <div className="container mx-auto px-4 md:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
-          <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-            className="relative"
-          >
+          <AboutLeft>
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4">
                 <img
@@ -39,14 +32,9 @@ const AboutSection = () => {
               </div>
             </div>
             <div className="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-primary/5 blur-3xl rounded-full"></div>
-          </motion.div>
+          </AboutLeft>
 
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            viewport={{ once: true }}
-          >
+          <AboutRight>
             <h2 className="text-accent font-bold tracking-[0.2em] mb-4 uppercase text-xs">
               Our Legacy in {siteData.location.split(",")[0]}
             </h2>
@@ -77,7 +65,7 @@ const AboutSection = () => {
             >
               LEARN MORE ABOUT OUR MISSION
             </a>
-          </motion.div>
+          </AboutRight>
         </div>
       </div>
     </section>

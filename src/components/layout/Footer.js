@@ -1,9 +1,7 @@
-"use client";
 import React from "react";
 import { siteData } from "@/data/siteData";
-import { Facebook, Instagram, Twitter, Linkedin, Phone, Mail, MapPin, ArrowUp } from "lucide-react";
-
-const SocialIcon = ({ icon: Icon, ...props }) => Icon ? <Icon {...props} /> : null;
+import { Facebook, Instagram, Twitter, Linkedin, Phone, Mail, MapPin } from "lucide-react";
+import FooterScrollButton from "./FooterScrollButton";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -28,6 +26,7 @@ const Footer = () => {
               {[Facebook, Instagram, Twitter, Linkedin].map((Icon, i) => (
                 <a
                   key={i} href="#"
+                  aria-label="Social Link"
                   className="w-9 h-9 bg-white/10 rounded-full flex items-center justify-center text-white/70 hover:text-accent hover:bg-white/20 transition-all border border-white/10"
                 >
                   <Icon size={16} />
@@ -84,15 +83,7 @@ const Footer = () => {
           <p className="text-white/40 text-[10px] uppercase tracking-widest font-bold">
             © {currentYear} National Fire Safety. All rights reserved.
           </p>
-          <button
-            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-            className="flex items-center gap-2 text-white/50 hover:text-accent transition-colors group"
-          >
-            <span className="text-[10px] font-bold uppercase tracking-widest">Back to Top</span>
-            <div className="w-8 h-8 bg-white/10 rounded-full flex items-center justify-center group-hover:bg-accent transition-colors border border-white/10">
-              <ArrowUp size={14} />
-            </div>
-          </button>
+          <FooterScrollButton />
         </div>
       </div>
     </footer>
