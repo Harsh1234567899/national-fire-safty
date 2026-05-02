@@ -1,9 +1,9 @@
 export default function sitemap() {
   return [
     {
-      url: 'https://nationalfiresafety.com',
+      url: 'https://www.nationalmanufactures.com',
       lastModified: new Date(),
-      changeFrequency: 'monthly',
+      changeFrequency: 'weekly',
       priority: 1,
     },
   ]

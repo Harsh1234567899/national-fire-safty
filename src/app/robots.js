@@ -4,6 +4,6 @@ export default function robots() {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://nationalfiresafety.com/sitemap.xml',
+    sitemap: 'https://www.nationalmanufactures.com/sitemap.xml',
   }
 }

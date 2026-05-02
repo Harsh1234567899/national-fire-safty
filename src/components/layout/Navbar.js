@@ -74,7 +74,7 @@ const Navbar = () => {
           </a>
         ))}
         <a
-          href="#contact"
+          href="/#contact"
           className="bg-primary hover:bg-primary-dark text-white px-12 py-5 rounded-full font-bold text-xl shadow-2xl shadow-primary/40 active:scale-95 transition-transform"
           onClick={() => setIsOpen(false)}
         >
@@ -97,7 +97,7 @@ const Navbar = () => {
         <div className="container mx-auto px-4 md:px-8">
           <div className="flex justify-between items-center">
             {/* Logo - Always in white container for visibility */}
-            <a href="#home" className="flex items-center gap-3 group relative">
+            <a href="/#home" className="flex items-center gap-3 group relative">
               <div className="bg-white p-1.5 rounded-lg shadow-sm group-hover:shadow-md transition-all transform group-hover:scale-105 duration-300">
                 <img
                   src="/images/logo.jpg"
@@ -105,10 +105,11 @@ const Navbar = () => {
                   className="h-10 md:h-12 w-auto object-contain"
                 />
               </div>
-              <div className="flex flex-col font-bebas tracking-wider leading-[1.1]">
+              <h1 className="flex flex-col font-bebas tracking-wider leading-[1.1]">
                 <span className={`text-xl md:text-2xl font-bold italic text-accent`}>NATIONAL</span>
                 <span className={`text-base md:text-lg font-bold ${scrolled ? "text-foreground" : "text-white"}`}>FIRE SAFETY</span>
-              </div>
+                <span className="sr-only">Fire and Safety Rajkot, Fire Equipments, Road Safety Products, National Fire Safety Rajkot</span>
+              </h1>
             </a>
 
             {/* Desktop Links */}
@@ -125,7 +126,7 @@ const Navbar = () => {
                 </a>
               ))}
               <a
-                href="#contact"
+                href="/#contact"
                 className="bg-primary hover:bg-primary-dark text-white px-8 py-3 rounded-full font-bold transition-all flex items-center gap-2 shadow-lg shadow-primary/20 active:scale-95"
               >
                 <PhoneCall size={18} />

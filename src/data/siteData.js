@@ -3,12 +3,12 @@ export const siteData = {
   location: "Rajkot, Gujarat",
   tagline: "Uncompromising Quality in Industrial & Fire Safety Solutions.",
   navLinks: [
-    { name: "Home", href: "#home" },
-    { name: "About", href: "#about" },
-    { name: "Services", href: "#services" },
-    { name: "Products", href: "#products" },
-    { name: "Projects", href: "#projects" },
-    { name: "Contact", href: "#contact" },
+    { name: "Home", href: "/#home" },
+    { name: "About", href: "/#about" },
+    { name: "Services", href: "/#services" },
+    { name: "Products", href: "/products" },
+    { name: "Projects", href: "/#projects" },
+    { name: "Contact", href: "/#contact" },
   ],
   stats: [
     { label: "Installations", value: "1200+" },

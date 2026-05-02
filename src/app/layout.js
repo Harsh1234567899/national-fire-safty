@@ -14,10 +14,23 @@ const bebasNeue = Bebas_Neue({
 });
 
 export const metadata = {
-  metadataBase: new URL('https://nationalfiresafety.com'),
+  metadataBase: new URL('https://www.nationalmanufactures.com'),
   title: "National Fire Safety | Best Fire Safety Solutions in Rajkot",
   description: "Premier fire safety service provider in Rajkot, Gujarat. Specializing in Fire NOC, Industrial AMC, fire extinguishers, and safety audits.",
-  keywords: ["fire safety rajkot", "fire NOC rajkot", "fire extinguisher gujarat", "industrial safety equipment", "AMC services fire", "fire hydrant system"],
+  keywords: [
+    "fire safety rajkot", 
+    "fire and safty rajkot",
+    "fire equipments",
+    "road safty products",
+    "national fire saftry rajkot",
+    "fire NOC rajkot", 
+    "fire extinguisher gujarat", 
+    "industrial safety equipment", 
+    "AMC services fire", 
+    "fire hydrant system",
+    "fire equipment manufacturer",
+    "safety products gujarat"
+  ],
   authors: [{ name: "National Fire Safety" }],
   creator: "National Fire Safety",
   publisher: "National Fire Safety",
@@ -29,15 +42,24 @@ export const metadata = {
   openGraph: {
     title: "National Fire Safety | Fire Safety Solutions in Rajkot",
     description: "Premier fire safety service provider in Rajkot, Gujarat. Specializing in Fire NOC, AMC, and safety hardware.",
-    url: 'https://nationalfiresafety.com',
+    url: 'https://www.nationalmanufactures.com',
     siteName: 'National Fire Safety',
     locale: 'en_IN',
     type: 'website',
+    images: [
+      {
+        url: '/images/logo.jpg',
+        width: 800,
+        height: 600,
+        alt: 'National Fire Safety Logo',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: "National Fire Safety | Fire Safety Solutions in Rajkot",
     description: "Premier fire safety service provider in Rajkot, Gujarat.",
+    images: ['/images/logo.jpg'],
   },
   robots: {
     index: true,
