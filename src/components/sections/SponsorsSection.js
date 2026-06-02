@@ -16,12 +16,12 @@ const SponsorsSection = () => {
           {siteData.sponsors.map((sponsor, i) => (
             <div
               key={`s1-${i}`}
-              className="flex items-center gap-3 md:gap-6 bg-white px-10 py-5 rounded-2xl border border-border-custom hover:border-primary/40 transition-all duration-300 group shadow-sm hover:shadow-md"
+              className="flex items-center gap-2 md:gap-5 bg-white px-5 py-3 md:px-10 md:py-5 rounded-xl md:rounded-2xl border border-border-custom hover:border-primary/40 transition-all duration-300 group shadow-sm hover:shadow-md"
             >
-              <div className="w-7 h-7 md:w-10 md:h-10 bg-primary/5 rounded-lg flex items-center justify-center font-bold text-primary group-hover:bg-primary group-hover:text-white transition-colors text-sm md:text-lg">
+              <div className="w-6 h-6 md:w-10 md:h-10 bg-primary/5 rounded-md md:rounded-lg flex items-center justify-center font-bold text-primary group-hover:bg-primary group-hover:text-white transition-colors text-[10px] md:text-lg">
                 {sponsor.name.charAt(0)}
               </div>
-              <span className="text-foreground-muted group-hover:text-primary font-bebas text-lg md:text-3xl tracking-widest uppercase transition-colors">
+              <span className="text-foreground-muted group-hover:text-primary font-bebas text-xs sm:text-sm md:text-2xl lg:text-3xl tracking-widest uppercase transition-colors">
                 {sponsor.name}
               </span>
             </div>
@@ -33,12 +33,12 @@ const SponsorsSection = () => {
           {siteData.sponsors.map((sponsor, i) => (
             <div
               key={`s2-${i}`}
-              className="flex items-center gap-3 md:gap-6 bg-white px-10 py-5 rounded-2xl border border-border-custom hover:border-primary/40 transition-all duration-300 group shadow-sm hover:shadow-md"
+              className="flex items-center gap-2 md:gap-5 bg-white px-5 py-3 md:px-10 md:py-5 rounded-xl md:rounded-2xl border border-border-custom hover:border-primary/40 transition-all duration-300 group shadow-sm hover:shadow-md"
             >
-              <div className="w-7 h-7 md:w-10 md:h-10 bg-primary/5 rounded-lg flex items-center justify-center font-bold text-primary group-hover:bg-primary group-hover:text-white transition-colors text-sm md:text-lg">
+              <div className="w-6 h-6 md:w-10 md:h-10 bg-primary/5 rounded-md md:rounded-lg flex items-center justify-center font-bold text-primary group-hover:bg-primary group-hover:text-white transition-colors text-[10px] md:text-lg">
                 {sponsor.name.charAt(0)}
               </div>
-              <span className="text-foreground-muted group-hover:text-primary font-bebas text-lg md:text-3xl tracking-widest uppercase transition-colors">
+              <span className="text-foreground-muted group-hover:text-primary font-bebas text-xs sm:text-sm md:text-2xl lg:text-3xl tracking-widest uppercase transition-colors">
                 {sponsor.name}
               </span>
             </div>

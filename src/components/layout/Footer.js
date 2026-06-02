@@ -13,7 +13,7 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <a href="#home" className="flex items-center gap-3 mb-5">
               <div className="bg-white p-1 rounded-lg">
-                <img src="/images/logo.jpg" alt="Logo" className="h-9 w-auto object-contain" />
+                <img src="/images/logo.webp" alt="Logo" className="h-9 w-auto object-contain" />
               </div>
               <span className="font-bebas text-2xl tracking-wider text-white">
                 NATIONAL <span className="text-secondary">FIRE SAFETY</span>

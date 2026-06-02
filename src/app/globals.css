@@ -1,22 +1,22 @@
 @import "tailwindcss";
 
 :root {
-  /* 60-30-10 Color Tokens - Finalized Light Theme */
-  --background: #F8FAFC;      /* Dominant (60%) - Off-White */
-  --secondary-bg: #F1F5F9;    /* Secondary (30%) - Light Slate */
+  /* 60-30-10 Color Tokens - Finalized Light Theme (Softer, Premium Off-White Palette) */
+  --background: #F4F6F9;      /* Dominant (60%) - Softer Off-White Slate */
+  --secondary-bg: #EAEFF4;    /* Secondary (30%) - Premium Soft Gray-Slate */
   --hero-bg: #0F172A;        /* Hero Section Dark Navy */
   --footer-bg: #0F172A;      /* Footer Section Dark Navy */
   
   --foreground: #0F172A;      /* Primary Heading - Slate-900 */
-  --foreground-muted: #64748B; /* Body Text - Slate-500 */
+  --foreground-muted: #4B5563; /* Body Text - Slate-600 (Better legibility) */
   
   --primary: #1E40AF;         /* Primary Action Blue */
   --primary-dark: #1E3A8A;
   --secondary: #D97706;       /* Secondary / Brand highlight */
   --accent: #D97706;          /* Accent Gold */
   
-  --border: rgba(15, 23, 42, 0.08); /* Subtle dark border on light bg */
-  --card: #FFFFFF;             /* Pure white cards on off-white bg */
+  --border: rgba(15, 23, 42, 0.06); /* Subtle dark border on light bg */
+  --card: #FFFFFF;             /* Pure white cards stand out beautifully on softer slate background */
 }
 
 @theme inline {

@@ -9,40 +9,34 @@ const ContactSection = () => {
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
 
-    // EmailJS logic
-    const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
-    const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
-    const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
+    const formData = new FormData(formRef.current);
+    const data = Object.fromEntries(formData.entries());
 
-    if (!serviceId || !templateId || !publicKey) {
-      console.error("EmailJS credentials missing. Please update .env.local");
-      setTimeout(() => {
-        setLoading(false);
-        setSuccess(true); // Simulate success for demo
-      }, 1000);
-      return;
-    }
-
-    emailjs
-      .sendForm(serviceId, templateId, formRef.current, {
-        publicKey: publicKey,
-      })
-      .then(
-        () => {
-          setLoading(false);
-          setSuccess(true);
-          formRef.current.reset();
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
         },
-        (error) => {
-          setLoading(false);
-          alert("Something went wrong. Please try again later.");
-          console.error("EmailJS Error:", error.text);
-        }
-      );
+        body: JSON.stringify(data),
+      });
+
+      if (response.ok) {
+        setSuccess(true);
+        formRef.current.reset();
+      } else {
+        alert("Something went wrong. Please try again later.");
+      }
+    } catch (error) {
+      console.error("Contact form error:", error);
+      alert("Something went wrong. Please try again later.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (

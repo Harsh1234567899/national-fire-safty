@@ -34,37 +34,34 @@ const InquiryModal = ({ isOpen, onClose, productName }) => {
     return () => window.removeEventListener("keydown", handleEsc);
   }, [onClose]);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
 
-    const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
-    const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
-    const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
+    const formData = new FormData(formRef.current);
+    const data = Object.fromEntries(formData.entries());
 
-    if (!serviceId || !templateId || !publicKey) {
-      console.error("EmailJS credentials missing.");
-      setTimeout(() => {
-        setLoading(false);
-        setSuccess(true);
-      }, 1000);
-      return;
-    }
-
-    emailjs
-      .sendForm(serviceId, templateId, formRef.current, { publicKey })
-      .then(
-        () => {
-          setLoading(false);
-          setSuccess(true);
-          formRef.current.reset();
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
         },
-        (error) => {
-          setLoading(false);
-          alert("Something went wrong. Please try again.");
-          console.error("EmailJS Error:", error.text);
-        }
-      );
+        body: JSON.stringify(data),
+      });
+
+      if (response.ok) {
+        setSuccess(true);
+        formRef.current.reset();
+      } else {
+        alert("Something went wrong. Please try again.");
+      }
+    } catch (error) {
+      console.error("Contact form error:", error);
+      alert("Something went wrong. Please try again.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (

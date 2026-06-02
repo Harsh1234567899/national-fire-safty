@@ -13,7 +13,7 @@ export const siteData = {
   stats: [
     { label: "Installations", value: "1200+" },
     { label: "Contracted Clients", value: "450+" },
-    { label: "Years in Rajkot", value: "15+" },
+    { label: "Years in Rajkot", value: "38+" },
     { label: "SKUs Available", value: "500+" },
   ],
   services: [

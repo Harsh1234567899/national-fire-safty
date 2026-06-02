@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useMemo, useTransition } from "react";
+import React, { useState, useEffect, useMemo, useTransition } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { allProducts } from "@/data/allProducts";
 import Navbar from "@/components/layout/Navbar";
@@ -19,6 +19,17 @@ export default function ProductsPage() {
   const [showMobileFilters, setShowMobileFilters] = useState(false);
   const [isPending, startTransition] = useTransition();
   const [selectedProduct, setSelectedProduct] = useState(null);
+ 
+  // Parse category parameter on client mount (avoids Next.js Suspense warnings)
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const params = new URLSearchParams(window.location.search);
+      const cat = params.get("category");
+      if (cat) {
+        setActiveCategory(cat);
+      }
+    }
+  }, []);
 
   // Extract unique categories
   const categories = useMemo(() => {
@@ -72,7 +83,7 @@ export default function ProductsPage() {
 
   return (
     <main className="min-h-screen bg-background">
-      <Navbar />
+      <Navbar unscrolledTheme="dark" />
       
       {/* Page Header */}
       <section className="pt-32 pb-12 bg-hero-bg text-white relative overflow-hidden">

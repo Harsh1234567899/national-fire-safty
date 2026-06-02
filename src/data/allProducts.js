@@ -5,7 +5,7 @@ export const allProducts = [
     "description": "STORE PRESSURE, ISI CERTIFIED, WITH ALL ACCESSORIES",
     "category": "Fire Systems",
     "subcategory": "Fire Extinguisher",
-    "image": "/images/abc-fire-extinguisher.jpeg"
+    "image": "/images/abc-fire-extinguisher.webp"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@ export const allProducts = [
     "description": "CO2 GAS, ISI CERTIFIED, WITH EXPLOSIVE CERTIFICATES, WITH ALLL ACCESSORIES",
     "category": "Fire Systems",
     "subcategory": "Fire Extinguisher",
-    "image": "/images/co2-fire-extinguisher2.jpg"
+    "image": "/images/co2-fire-extinguisher2.webp"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@ export const allProducts = [
     "description": "20MM, 25MM",
     "category": "Fire Systems",
     "subcategory": "Fire Fighting",
-    "image": "/images/hose-reel.jpg"
+    "image": "/images/hose-reel.webp"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@ export const allProducts = [
     "description": "15 MTR, WITH MALE FEMAIL COUPLING",
     "category": "Fire Systems",
     "subcategory": "Fire Fighting",
-    "image": "/images/hose-reel2.jpg"
+    "image": "/images/hose-reel2.webp"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@ export const allProducts = [
     "description": "ISI",
     "category": "Fire Systems",
     "subcategory": "Fire Fighting",
-    "image": "/images/hydrant-valve.jpg"
+    "image": "/images/hydrant-valve.webp"
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@ export const allProducts = [
     "description": "LIFE JACKET",
     "category": "Safety Gear",
     "subcategory": "Body Protection",
-    "image": "/images/life-jackets.jpg"
+    "image": "/images/life-jackets.webp"
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@ export const allProducts = [
     "description": "COLOUR - ORANGE, BLUE",
     "category": "Safety Gear",
     "subcategory": "Body Protection",
-    "image": "/images/boiler-suite.jpg"
+    "image": "/images/boiler-suite.webp"
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@ export const allProducts = [
     "description": "ORANGE 2\" 3M REFLECTIVE TAPE, GREEN 2\" 3M REFLECTIVE TAPE, YELLOW 2\" 3M REFLECTIVE TAPE, BLUE 2\" 3M REFLECTIVE TAPE, RED 2\" 3M REFLECTIVE TAPE",
     "category": "Safety Gear",
     "subcategory": "Body Protection",
-    "image": "/images/safety-jacket2.jpg"
+    "image": "/images/safety-jacket2.webp"
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@ export const allProducts = [
     "description": "ORANGE 1\" AND 2\" REFLECTIVE TAPE, GREEN 1\" AND 2\" REFLECTIVE TAPE, YELLOW 1\" AND 2\" REFLECTIVE TAPE, BLUE 1\" AND 2\" REFLECTIVE TAPE, RED 1\" AND 2\" REFLECTIVE TAPE",
     "category": "Safety Gear",
     "subcategory": "Body Protection",
-    "image": "/images/safety-jacket.jpg"
+    "image": "/images/safety-jacket.webp"
   },
   {
     "id": 10,
@@ -85,7 +85,7 @@ export const allProducts = [
     "description": "COLOUR - BLACK, CLEAR, KARAM BRAND",
     "category": "Safety Gear",
     "subcategory": "Eye Protection",
-    "image": "/images/goggles2.jpg"
+    "image": "/images/goggles2.webp"
   },
   {
     "id": 12,
@@ -93,7 +93,7 @@ export const allProducts = [
     "description": "COLOUR - CLEAR, 3M BRAND",
     "category": "Safety Gear",
     "subcategory": "Eye Protection",
-    "image": "/images/goggles3.jpg"
+    "image": "/images/goggles3.webp"
   },
   {
     "id": 13,
@@ -101,7 +101,7 @@ export const allProducts = [
     "description": "COLOUR - MILITARY, 11 INCH LENGTH",
     "category": "Safety Gear",
     "subcategory": "Footwear",
-    "image": "/images/gumboot2.jpg"
+    "image": "/images/gumboot2.webp"
   },
   {
     "id": 14,
@@ -125,7 +125,7 @@ export const allProducts = [
     "description": "COLOUR - Black, 12 INCH LENGTH, ISI",
     "category": "Safety Gear",
     "subcategory": "Footwear",
-    "image": "/images/gumboot5.jpg"
+    "image": "/images/gumboot5.webp"
   },
   {
     "id": 17,
@@ -149,7 +149,7 @@ export const allProducts = [
     "description": "HIGH ANKLE, PVC SOLE, HEAVY DUTY, WITH STEEL TOE",
     "category": "Safety Gear",
     "subcategory": "Footwear",
-    "image": "/images/mideum.jpg"
+    "image": "/images/mideum.webp"
   },
   {
     "id": 20,
@@ -165,7 +165,7 @@ export const allProducts = [
     "description": "LOW ANKLE, DD PU SOLE, HEAVY DUTY, ISI WITH STEEL TOE",
     "category": "Safety Gear",
     "subcategory": "Footwear",
-    "image": "/images/sports.jpg"
+    "image": "/images/sports.webp"
   },
   {
     "id": 22,
@@ -173,7 +173,7 @@ export const allProducts = [
     "description": "LOW ANKLE, SD PU SOLE, HEAVY DUTY, ISI WITH STEEL TOE",
     "category": "Safety Gear",
     "subcategory": "Footwear",
-    "image": "/images/sports2.jpg"
+    "image": "/images/sports2.webp"
   },
   {
     "id": 23,
@@ -181,7 +181,7 @@ export const allProducts = [
     "description": "LOW ANKLE, SD PU SOLE, HEAVY DUTY, ISI WITH STEEL TOE",
     "category": "Safety Gear",
     "subcategory": "Footwear",
-    "image": "/images/sports3.jpg"
+    "image": "/images/sports3.webp"
   },
   {
     "id": 24,
@@ -189,7 +189,7 @@ export const allProducts = [
     "description": "LOW ANKLE, SD PU SOLE, HEAVY DUTY, ISI WITH STEEL TOE",
     "category": "Safety Gear",
     "subcategory": "Footwear",
-    "image": "/images/sports4.jpg"
+    "image": "/images/sports4.webp"
   },
   {
     "id": 25,
@@ -213,7 +213,7 @@ export const allProducts = [
     "description": "COTTON TYPE, COLOUR- MIX COLOUR, MOQ 600 PAIRS",
     "category": "Safety Gear",
     "subcategory": "Hand Protection",
-    "image": "/images/gloves9.jpg"
+    "image": "/images/gloves9.webp"
   },
   {
     "id": 28,
@@ -229,7 +229,7 @@ export const allProducts = [
     "description": "COTTON TYPE, COLOUR- BLUE AND WHITE, MOQ 1200 PAIRS",
     "category": "Safety Gear",
     "subcategory": "Hand Protection",
-    "image": "/images/gloves8.jpg"
+    "image": "/images/gloves8.webp"
   },
   {
     "id": 30,
@@ -237,7 +237,7 @@ export const allProducts = [
     "description": "CUT LEVEL 1, NITRILE  COATING, COLOUR- WHITE/GRAY, DECCAN BRAND, MOQ 600 PAIRS",
     "category": "Safety Gear",
     "subcategory": "Hand Protection",
-    "image": "/images/gloves7.jpg"
+    "image": "/images/gloves7.webp"
   },
   {
     "id": 31,
@@ -245,7 +245,7 @@ export const allProducts = [
     "description": "COLOUR- BLUE, ORANGE/YELLOW, DECCAN, FORTUNE- BRAND, MOQ 600 PAIRS",
     "category": "Safety Gear",
     "subcategory": "Hand Protection",
-    "image": "/images/gloves15.jpg"
+    "image": "/images/gloves15.webp"
   },
   {
     "id": 32,
@@ -253,7 +253,7 @@ export const allProducts = [
     "description": "FOR CHEMICAL USE, FLOCKLINE HEAVY DUTY, 60 TO 70 GRAMS WEIGHT, COLOUR-GREEN, RAKSHAK",
     "category": "Safety Gear",
     "subcategory": "Hand Protection",
-    "image": "/images/gloves5.jpg"
+    "image": "/images/gloves5.webp"
   },
   {
     "id": 33,
@@ -261,7 +261,7 @@ export const allProducts = [
     "description": "HOUSE HOLD, FLOCKLINE, 55 TO 65 GRAMS WEIGHT, COLOUR-YELLOW, BLUE, PINK, WHITE,, GREEN",
     "category": "Safety Gear",
     "subcategory": "Hand Protection",
-    "image": "/images/gloves.jpg"
+    "image": "/images/gloves.webp"
   },
   {
     "id": 34,
@@ -269,7 +269,7 @@ export const allProducts = [
     "description": "INDUSTRIAL USES, FLOCKLINE, 90 TO 100 GRAMS WEIGHT, COLOUR-ORANGE, BS",
     "category": "Safety Gear",
     "subcategory": "Hand Protection",
-    "image": "/images/gloves2.jpg"
+    "image": "/images/gloves2.webp"
   },
   {
     "id": 35,
@@ -285,7 +285,7 @@ export const allProducts = [
     "description": "HOUSE HOLD, FLOCKLINE, 50 TO 60 GRAMS WEIGHT, COLOUR-YELLOW , RED, PINK, BS",
     "category": "Safety Gear",
     "subcategory": "Hand Protection",
-    "image": "/images/gloves4.jpg"
+    "image": "/images/gloves4.webp"
   },
   {
     "id": 37,
@@ -309,7 +309,7 @@ export const allProducts = [
     "description": "LEATHER HAND GLOVES",
     "category": "Safety Gear",
     "subcategory": "Hand Protection",
-    "image": "/images/gloves16.jpg"
+    "image": "/images/gloves16.webp"
   },
   {
     "id": 40,
@@ -317,7 +317,7 @@ export const allProducts = [
     "description": "COTTON LINING, HEAVY DUTY, CHEMICAL USES",
     "category": "Safety Gear",
     "subcategory": "Hand Protection",
-    "image": "/images/gloves13.jpg"
+    "image": "/images/gloves13.webp"
   },
   {
     "id": 41,
@@ -333,7 +333,7 @@ export const allProducts = [
     "description": "COLOUR - YELLOW, BLUE, RED, WHITE, MOQ 50 PCS, ISI",
     "category": "Safety Gear",
     "subcategory": "Head Protection",
-    "image": "/images/helmet3.avif"
+    "image": "/images/helmet3.webp"
   },
   {
     "id": 43,
@@ -349,7 +349,7 @@ export const allProducts = [
     "description": "COLOUR - YELLOW, BLUE, RED, WHITE, PVC STRIP BEND, NEPE TYPE, ISI, MOQ 100 PCS",
     "category": "Safety Gear",
     "subcategory": "Head Protection",
-    "image": "/images/helmet.jpg"
+    "image": "/images/helmet.webp"
   },
   {
     "id": 45,
@@ -357,7 +357,7 @@ export const allProducts = [
     "description": "COLOUR - YELLOW, BLUE, RED, WHITE, ISI, MOQ 100 PCS",
     "category": "Safety Gear",
     "subcategory": "Head Protection",
-    "image": "/images/helmet2.jpeg"
+    "image": "/images/helmet2.webp"
   },
   {
     "id": 46,
@@ -373,7 +373,7 @@ export const allProducts = [
     "description": "BRAND KARAM, MODEL- EP21",
     "category": "Safety Gear",
     "subcategory": "Hearing Protection",
-    "image": "/images/ear-muff.jpg"
+    "image": "/images/ear-muff.webp"
   },
   {
     "id": 48,
@@ -381,7 +381,7 @@ export const allProducts = [
     "description": "SAFETY EAR MUFF",
     "category": "Safety Gear",
     "subcategory": "Hearing Protection",
-    "image": "/images/ear-muff2.jpg"
+    "image": "/images/ear-muff2.webp"
   },
   {
     "id": 49,
@@ -389,7 +389,7 @@ export const allProducts = [
     "description": "SAFETY BARRICATE TAPE",
     "category": "Road Safety",
     "subcategory": "Barricading",
-    "image": "/images/barricate-tape.jpg"
+    "image": "/images/barricate-tape.webp"
   },
   {
     "id": 50,
@@ -397,7 +397,7 @@ export const allProducts = [
     "description": "RED AND WHITE, 6MM THICKNESS, CONE CONNECT CHAIN",
     "category": "Road Safety",
     "subcategory": "Traffic Control",
-    "image": "/images/cone-chain.jpg"
+    "image": "/images/cone-chain.webp"
   },
   {
     "id": 51,
@@ -405,7 +405,7 @@ export const allProducts = [
     "description": "SIZE-L250MM X W350MM X H50MM",
     "category": "Road Safety",
     "subcategory": "Traffic Control",
-    "image": "/images/speed-breaker2.jpg"
+    "image": "/images/speed-breaker2.webp"
   },
   {
     "id": 52,
@@ -413,7 +413,7 @@ export const allProducts = [
     "description": "SIZE-L1000MM X W450MM X H60MM , 500*350*50mm ,15 kgs weight,Rubber breakar",
     "category": "Road Safety",
     "subcategory": "Traffic Control",
-    "image": "/images/speed-breaker.jpg"
+    "image": "/images/speed-breaker.webp"
   },
   {
     "id": 53,
@@ -421,7 +421,7 @@ export const allProducts = [
     "description": "PREMIUM QTY, 750MM HEIGHT, CENTER REFLECTIVE TAPE, FLEXIBLE, MOQ 15 PCS",
     "category": "Road Safety",
     "subcategory": "Traffic Control",
-    "image": "/images/cone2.jpg"
+    "image": "/images/cone2.webp"
   },
   {
     "id": 54,
@@ -429,7 +429,7 @@ export const allProducts = [
     "description": "PREMIUM QTY, 1000MM HEIGHT, CENTER REFLECTIVE TAPE, FLEXIBLE, MOQ 15 PCS",
     "category": "Road Safety",
     "subcategory": "Traffic Control",
-    "image": "/images/cone3.jpg"
+    "image": "/images/cone3.webp"
   },
   {
     "id": 55,
@@ -445,7 +445,7 @@ export const allProducts = [
     "description": "SAFETY ROAD STUD",
     "category": "Road Safety",
     "subcategory": "Traffic Control",
-    "image": "/images/road-stud.jpg"
+    "image": "/images/road-stud.webp"
   },
   {
     "id": 57,
@@ -461,7 +461,7 @@ export const allProducts = [
     "description": "PU FLEXIBLE, 3 REFLECTIVE TAPE, 750MM HEIGHT",
     "category": "Road Safety",
     "subcategory": "Traffic Control",
-    "image": "/images/spring-parking.jpg"
+    "image": "/images/spring-parking.webp"
   },
   {
     "id": 59,
@@ -477,7 +477,7 @@ export const allProducts = [
     "description": "SIZE - 10MTR*30MTR (3235 SQURE FEET) ,THICKNESS - 2.5 (ROPE),MESH SIZE 50MM,WITH LOAD CAPACITY ,WITH 1 ERS MFG WARRENTY",
     "category": "Construction",
     "subcategory": "Safety Nets",
-    "image": "/images/net.jpg"
+    "image": "/images/net.webp"
   },
   {
     "id": 61,
@@ -485,7 +485,7 @@ export const allProducts = [
     "description": "SAFETY GREEN SHADE NET",
     "category": "Construction",
     "subcategory": "Safety Nets",
-    "image": "/images/safetyNet2.jpg"
+    "image": "/images/safetyNet2.webp"
   },
   {
     "id": 62,
@@ -493,7 +493,7 @@ export const allProducts = [
     "description": "SIZE-5MTR X 10 MTR, 539 SQR FT, 12MM OUTER ROPE, 4MM INNER ROPE, WITH FISH NET",
     "category": "Construction",
     "subcategory": "Safety Nets",
-    "image": "/images/safetyNet.jpg"
+    "image": "/images/safetyNet.webp"
   },
   {
     "id": 63,
@@ -501,7 +501,7 @@ export const allProducts = [
     "description": "YELLOW BLACK",
     "category": "General Safety",
     "subcategory": "Accessories",
-    "image": "/images/anti-skid.jpg"
+    "image": "/images/anti-skid.webp"
   },
   {
     "id": 64,
@@ -509,7 +509,7 @@ export const allProducts = [
     "description": "BRANCH PIPE",
     "category": "General Safety",
     "subcategory": "Accessories",
-    "image": "/images/branch-Pipe.jpg"
+    "image": "/images/branch-Pipe.webp"
   },
   {
     "id": 65,
@@ -517,7 +517,7 @@ export const allProducts = [
     "description": "FIRE BUCKET",
     "category": "General Safety",
     "subcategory": "Accessories",
-    "image": "/images/fire-bucket.jpg"
+    "image": "/images/fire-bucket.webp"
   },
   {
     "id": 66,
@@ -541,7 +541,7 @@ export const allProducts = [
     "description": "3*10ft@6750/-\n3*12ft@8600/-\n3*16ft@9800/-\n4*10ft@7860/-\n4*12ft@8560/-\n4*16ft@9860/-\n5*10ft@9870/-\n5*12ft@10870/-\n5*16ft@12450/-",
     "category": "General Safety",
     "subcategory": "Accessories",
-    "image": "/images/metal-barricade.png"
+    "image": "/images/metal-barricade.webp"
   },
   {
     "id": 69,
@@ -549,7 +549,7 @@ export const allProducts = [
     "description": "METAL DETECTOR",
     "category": "General Safety",
     "subcategory": "Accessories",
-    "image": "/images/metal-detector.jpg"
+    "image": "/images/metal-detector.webp"
   },
   {
     "id": 70,
@@ -557,7 +557,7 @@ export const allProducts = [
     "description": "100CM (40 INCH),80CM (32 INCH),60CM (24 INCH),45CM (18 INCH)",
     "category": "General Safety",
     "subcategory": "Accessories",
-    "image": "/images/mirror.jpg"
+    "image": "/images/mirror.webp"
   },
   {
     "id": 71,
@@ -565,7 +565,7 @@ export const allProducts = [
     "description": "Q MANAGER",
     "category": "General Safety",
     "subcategory": "Accessories",
-    "image": "/images/que-manager.jpg"
+    "image": "/images/que-manager.webp"
   },
   {
     "id": 72,
@@ -573,7 +573,7 @@ export const allProducts = [
     "description": "SAFETY FINGER COT",
     "category": "General Safety",
     "subcategory": "Accessories",
-    "image": "/images/finger-cot.jpg"
+    "image": "/images/finger-cot.webp"
   },
   {
     "id": 73,
@@ -581,7 +581,7 @@ export const allProducts = [
     "description": "BRAND KARAM, MODEL- PN351",
     "category": "General Safety",
     "subcategory": "Accessories",
-    "image": "/images/body-harnes.jpg"
+    "image": "/images/body-harnes.webp"
   },
   {
     "id": 74,
@@ -589,7 +589,7 @@ export const allProducts = [
     "description": "BRAND KARAM, MODEL- ES1",
     "category": "General Safety",
     "subcategory": "Accessories",
-    "image": "/images/face-shield.jpg"
+    "image": "/images/face-shield.webp"
   },
   {
     "id": 75,
@@ -597,6 +597,6 @@ export const allProducts = [
     "description": "WATER STOPPER",
     "category": "General Safety",
     "subcategory": "Accessories",
-    "image": "/images/water-stopper.jpg"
+    "image": "/images/water-stopper.webp"
   }
 ];

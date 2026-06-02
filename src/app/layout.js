@@ -48,7 +48,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: '/images/logo.jpg',
+        url: '/images/logo.webp',
         width: 800,
         height: 600,
         alt: 'National Fire Safety Logo',
@@ -59,7 +59,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: "National Fire Safety | Fire Safety Solutions in Rajkot",
     description: "Premier fire safety service provider in Rajkot, Gujarat.",
-    images: ['/images/logo.jpg'],
+    images: ['/images/logo.webp'],
   },
   robots: {
     index: true,
